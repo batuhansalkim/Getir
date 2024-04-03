@@ -1,9 +1,11 @@
-import { View } from "react-native";
-import HeaderMain from "../HeaderMain";
+import { ScrollView, View } from "react-native";
+import HeaderMain from "../../components/HeaderMain";
+import BannerCoursel from "../../components/BannerCarousel";
 export default function index(){
   return(
-    <View>
+    <ScrollView stickyHeaderIndices={[0]} style={{backgroundColor:"red"}}>
       <HeaderMain/>
-    </View>
+      <BannerCoursel/>
+    </ScrollView>
   )
 }
