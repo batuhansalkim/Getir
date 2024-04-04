@@ -5,7 +5,7 @@ const {width,height} = Dimensions.get("window");
 export default function index(){
     return(
         <TouchableOpacity>
-            <Image style={{width:width*0.18,height:width*0.18}} source={"https://cdn.getir.com/cat/5fd8c58f3bdc2389a56e0fb0_2b1a70ca-4a4a-4477-adf1-7414a476aff8.jpeg"}/>
+            <Image style={{width:width*0.18,height:width*0.18,borderRadius:8}}  source={{ uri:'https://cdn.getir.com/cat/551430043427d5010a3a5c5e_1619242669958_1619242670038.jpeg'}}/>
             <Text>İndirimler</Text>
         </TouchableOpacity>
     )

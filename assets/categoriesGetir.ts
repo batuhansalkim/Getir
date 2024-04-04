@@ -4,7 +4,6 @@ export default [
       name: "İndirimler",
       src: "https://cdn.getir.com/cat/5fd8c58f3bdc2389a56e0fb0_2b1a70ca-4a4a-4477-adf1-7414a476aff8.jpeg",
       subCategories:["Birlikte İyi Gider","Çubuk","Kutu","Külah","Çoklu","Bar"]
-  
     }
     ,{
       id: "2",
