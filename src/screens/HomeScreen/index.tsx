@@ -5,7 +5,7 @@ import CategoryItem from "../../components/CategoryItem";
 
 export default function index(){
   return(
-    <ScrollView stickyHeaderIndices={[0]} style={{backgroundColor:"red"}}>
+    <ScrollView stickyHeaderIndices={[0]} style={{}}>
       <HeaderMain/>
       <BannerCoursel/>
       <CategoryItem/>
