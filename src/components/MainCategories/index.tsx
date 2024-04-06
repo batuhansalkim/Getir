@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import CategoryItem from "../CategoryItem";
 import categoriesGetir from '../../../assets/categoriesGetir';
 import { Category } from '../../models';
+
 const index = () => {
     const [categories,setCategories ] = useState<Category[]>(categoriesGetir)
   return (

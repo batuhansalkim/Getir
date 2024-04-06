@@ -1,10 +1,12 @@
 import { View, Text } from 'react-native'
-import React from 'react'
-
-const index = () => {
+import React,{useState} from 'react'
+import CategoryFiltering from "../../components/CategoryFiltering";
+import { Category } from '../../models';
+const index = (props) => {
+  const [category,setCategory] = useState<Category>(props.route.params.category)
   return (
     <View>
-      <Text>index</Text>
+      <CategoryFiltering category={category}/>
     </View>
   )
 }
